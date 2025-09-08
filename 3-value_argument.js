@@ -1,7 +1,10 @@
 const processArgv = process.argv
+let count = 0
 
-const lastIndex = Object.keys(processArgv).at(-1);
-let count = Number(lastIndex) + 1
+for (let i of processArgv) {
+    count++;
+}
+
 if (count === 2) {
     console.log("No argument")
 } else {
