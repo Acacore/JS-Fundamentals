@@ -8,6 +8,6 @@ for (let i of processArgv) {
 if (count === 2) {
     console.log("No argument")
 } else {
-    console.log(processArgv.slice(2).join(" "))
+    console.log(processArgv[2])
         
 }
