@@ -1,7 +1,7 @@
 const value = process.argv[2]
 let num = parseInt(value)
 
-if (!isNaN(num) && num > 0){
+if (!isNaN(num)){
     for (let i = 0; i < num; i++){
         console.log('C is fun')
     }
