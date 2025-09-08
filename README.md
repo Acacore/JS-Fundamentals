@@ -1,0 +1,1 @@
+### Basic Console.log file added in JS
